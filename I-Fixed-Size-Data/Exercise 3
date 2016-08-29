@@ -1,0 +1,7 @@
+(define str "helloworld")
+(define i 5)
+(define substr1 (substring str 0 i))
+(define substr2 (substring str i 10))
+(define u "_")
+
+(string-append substr1 u substr2)
