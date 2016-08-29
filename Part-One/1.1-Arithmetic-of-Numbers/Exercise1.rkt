@@ -1,4 +1,0 @@
-#lang htdp/bsl
-(define x 3)
-(define y 5)
-(sqrt (+ (sqr x) (sqr y)))
