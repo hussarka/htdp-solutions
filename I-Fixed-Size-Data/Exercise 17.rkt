@@ -1,3 +1,4 @@
+#lang htdp/bsl
 (require 2htdp/image)
 
 (define (image-classify x)

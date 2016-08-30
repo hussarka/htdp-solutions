@@ -5,7 +5,7 @@
 ; A function application puts defined functions to work.
 
 
-
+#lang htdp/bsl
 (require 2htdp/image)
 
 (define (result x y) (sqrt (+ (sqr x) (sqr y))))

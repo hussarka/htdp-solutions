@@ -2,7 +2,7 @@
 ;and it's true with the first expression, than it takes the first expression from the three sub-expressions;
 ; but if it's not true, than it goes and does the second expression. I've done the exercise 8 as well. 
 
-
+#lang htdp/bsl
 
 (require 2htdp/image)
 

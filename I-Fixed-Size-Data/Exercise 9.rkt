@@ -2,6 +2,7 @@
 ; so that it could go to the next step if it's #f and continue to eval and apply.
 ; I did the exercises from this part also. 
 
+#lang htdp/bsl
 (require 2htdp/image)
 
 (define in #false)

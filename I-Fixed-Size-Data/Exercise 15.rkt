@@ -1,3 +1,4 @@
+#lang htdp/bsl
 (define sunny #f)
 (define friday #t)
 

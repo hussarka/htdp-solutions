@@ -1,3 +1,4 @@
+#lang htdp/bsl
 (define (string-delete x i)
   (if (<= (string-length x) 0) "Please insert text"
      (if (<= (string-length x) i) "The value must be smaller then txt-length"

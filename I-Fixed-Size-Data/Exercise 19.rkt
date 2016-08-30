@@ -1,3 +1,4 @@
+#lang htdp/bsl
 (define (string-insert x i)
   (if (< (string-length x) i) "Please write a longer text for that value"
      (if (= (string-length x) 0) "Please insert a text" 
