@@ -6,11 +6,11 @@
 
 (require 2htdp/image)
 
-(define cat .)
+(define cat (bitmap/file "cat1.png"))
 
 (define magassag (image-height cat))
 (define szelesseg (image-width cat))
 
-(define kep (if (> magassag szelesseg) "tall"
+(if (> magassag szelesseg) "tall"
                 (if (= magassag szelesseg) "quare"
-                    (if (< magassag szelesseg) "wide" "I don't know"))))
+                    (if (< magassag szelesseg) "wide" "I don't know")))
