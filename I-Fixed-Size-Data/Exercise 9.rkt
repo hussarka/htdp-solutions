@@ -15,7 +15,6 @@
 (require 2htdp/image)
 (define in2 -5)
 
-(define what-is-it.v2
         (if (string? in2) (string-length in2)
             (if (image? in2) (* (image-width in2) (image-height in2))
-                (if (<= in2 0) 10 20))))
+                (if (<= in2 0) 10 20)))
