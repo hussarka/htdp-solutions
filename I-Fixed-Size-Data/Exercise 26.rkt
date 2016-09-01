@@ -6,3 +6,8 @@
                  (substring s i)))
 
 (string-insert "helloworld" 6)
+
+; Expectation:
+; hellowo_rld
+
+; The result was: "hellow_orld"
